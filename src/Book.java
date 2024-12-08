@@ -57,10 +57,10 @@ public class Book {
 
     }
     //TOString method
-    public Stirng toString() {
+    public String toString() {
         return "Title :" + title + "\n" +
                 "Author:" + author + "\n" +
-                "Price :" + String.format( % .2f,price)+"\n" +
+                "Price :" + String.format( % .2f,price)+"\n" +   //tried to add String format with the variable
                 "Publisher :" + publisher + " \n" +
                 "ISBN :" + isbn;
     }
